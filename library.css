@@ -20,19 +20,23 @@ body{
     width:300px;height: 30px;border: none;outline: none;
 }
 /* --------------Body--------------- */
-.container{
+.container-fluid{
     position: absolute;top:60px;left:0;right:0;bottom:0;
     display: block;
 }
+.container{
+    display: flex;flex-direction: row;flex: 1;
+    min-height: 555px;
+}
 .container-nav{
-    position: sticky;top:8%;background-color: lightgreen;
+    position: sticky;top:50px;
     top:0;bottom:0
 }
 .container-body{
     display: flex;flex:1;flex-direction: row;
 }
 .container-items{
-    display: flex;flex-wrap: wrap;justify-content:space-around
+    display: flex;flex-wrap: wrap;justify-content:space-evenly
 
 }
 .side_items{
