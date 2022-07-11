@@ -53,3 +53,8 @@ body{
     border:1px solid black;
     /* box-shadow: 3px 1px 10px 1px rgb(255, 255, 255); */
 }
+@media only screen and (max-width:730px){
+    #search{
+        width:100px;
+    }
+}
