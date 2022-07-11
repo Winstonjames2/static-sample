@@ -24,12 +24,12 @@ body{
     position: absolute;top:60px;left:0;right:0;bottom:0;
     display: block;
 }
-.container-body{
-    display: flex;flex:1;flex-direction: row;
-}
 .container-nav{
     position: sticky;top:8%;background-color: lightgreen;
-    /* margin:-25px 0 0 0; */
+    top:0;bottom:0
+}
+.container-body{
+    display: flex;flex:1;flex-direction: row;
 }
 .container-items{
     display: flex;flex-wrap: wrap;justify-content:space-around
