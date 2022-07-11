@@ -16,13 +16,13 @@ body{
 #nav-user{
     float:right;margin-right:5%;
 }
+#search{
+    width:300px;height: 30px;border: none;outline: none;
+}
 /* --------------Body--------------- */
 .container{
     position: absolute;top:60px;left:0;right:0;bottom:0;
     display: block;
-}
-.heading-sm{
-    text-align: center;font-size: 1.2em;color:lightgreen;
 }
 .container-body{
     display: flex;flex:1;flex-direction: row;
@@ -41,10 +41,6 @@ body{
 .search_icon{
     font-size: 0.8em;
 }
-#search{
-    width:300px;height: 30px;
-    border: none;outline: none;
-}
 .label{
     font-size:1.2em;text-align: center;color:black;justify-content: center;
     display: flex;overflow-wrap: break-word;width: 200px;
@@ -52,6 +48,9 @@ body{
 .books{
     border:1px solid black;
     /* box-shadow: 3px 1px 10px 1px rgb(255, 255, 255); */
+}
+.heading-sm{
+    text-align: center;font-size: 1.2em;color:lightgreen;
 }
 @media only screen and (max-width:767px){
     body{
