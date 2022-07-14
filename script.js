@@ -26,8 +26,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         };
     };
     window.onresize=()=>{
-        if(window.innerWidth==770 ||isCaret){
-            document.querySelector(".container-nav").style="display:inline;position:sticky";
+        if(window.innerWidth>=767){
             window.location.reload();
         }
     };
