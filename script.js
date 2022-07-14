@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
     var isCaret=false;
     function ForSmallerScreen(){
-        document.querySelector(".container-items-fluid").style="opacity:0.5";
+        document.querySelector(".container-items-fluid").style="opacity:0.2";
         document.querySelector(".container-nav").style="display:inline;position:fixed";
         isCaret=true;
     };
