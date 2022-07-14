@@ -51,8 +51,8 @@ body{
     color:white;background-color:lightgreen;font-weight: bold;
 }
 .label{
-    font-size:1.2em;text-align: center;color:black;justify-content: center;
-    display: flex;overflow-wrap: break-word;width: 200px;
+    color:black;overflow-wrap: break-word;
+    width: 200px;
 }
 .books{
     border:1px solid black;
