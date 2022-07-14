@@ -31,7 +31,7 @@ body{
 /* -----------//----------- */
 .container-nav{
     position: sticky;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);z-index: 1;
 }
 .container-nav2{
     margin-top:80px;overflow-y:scroll;height:400px;position: sticky;top:80px;
@@ -51,18 +51,31 @@ body{
     color:white;background-color:lightgreen;font-weight: bold;
 }
 .label{
-    color:black;overflow-wrap: break-word;
-    width: 200px;
+    color:black;width: 150px;display: inline-block;
+    white-space: nowrap;overflow: hidden !important;
+    text-overflow: ellipsis;font-size: 1em;
 }
 .books{
     border:1px solid black;
-    /* box-shadow: 3px 1px 10px 1px rgb(255, 255, 255); */
 }
+#more_bars{
+    display: none;font-size: 0.9em;
+}
+
 @media only screen and (max-width:767px){
     body{
         font-size:0.9em;
     }
     #search{
         width:125px;
+    }
+    img{
+        width:130px;height: 200px;
+    }
+    .container-nav{
+        display: none;
+    }
+    #more_bars{
+        display:inline;
     }
 }
