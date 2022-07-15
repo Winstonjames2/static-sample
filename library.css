@@ -19,7 +19,16 @@ hr{
     margin-left:4%;
 }
 #nav-user{
-    float:right;margin-right:5%;
+    float:right;margin-right:5%;display: flex;align-items: center;cursor: pointer;
+}
+.userIcon{
+    width:25px;height: 25px;border-radius: 50%;
+}
+.fa-caret-down{
+    font-size:0.6em;margin:2px;display: block;color:white;
+}
+#nav-user:hover > .fa-caret-down{
+    color:rgb(129, 129, 129);
 }
 #search{
     width:300px;height: 30px;border: none;outline: none;
