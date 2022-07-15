@@ -1,6 +1,9 @@
 body{
     background-color:white;color:black;
-    display: block;overflow-x: hidden;height:1000px;
+    display: block;overflow-x: hidden;
+}
+hr{
+    width:1365px;margin-left:-8px;margin-right:-2px;border:0.5px solid grey;
 }
 /* --------NavigationBar----------- */
 .nav{
@@ -30,11 +33,10 @@ body{
 }
 /* -----------//----------- */
 .container-nav{
-    position: sticky;
     background-color: rgb(211, 211, 211);z-index: 1;
 }
 .container-nav2{
-    margin-top:50px;overflow-y:scroll;height:400px;position: sticky;top:80px;
+    margin-top:50px;overflow-y:scroll;height:400px;position: sticky;top:50px;
 }
 .nav2-items{
     color:black;margin:60px 20px 30px 20px;
@@ -46,6 +48,9 @@ body{
     margin:20px auto auto 25px;
     display: flex;flex-wrap: wrap;justify-content: space-evenly;
 }
+/* .items{
+    
+} */
 .heading-sm{
     text-align: center;font-size: 1.2em;margin-top:20px;font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;background-color:lightgreen;font-weight: bold;
@@ -55,13 +60,16 @@ body{
     white-space: nowrap;overflow: hidden !important;
     text-overflow: ellipsis;font-size: 1em;
 }
-.books{
-    border:1px solid black;
+.bookCover{
+    border:0.5px solid black;box-shadow: -3px 0px 0px 0px rgb(95, 95, 95);
+    width:150px; height:220px;
 }
 #more_bars{
     display: none;font-size: 0.9em;
 }
-
+.footer{
+    margin-left:5px;margin-right:20px;
+}
 @media only screen and (max-width:767px){
     body{
         font-size:0.9em;
