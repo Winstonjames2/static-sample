@@ -21,11 +21,14 @@
 table{
     font-size:1em;font-family: 'Arial Narrow Bold', sans-serif;
 }
+td{
+    height: 23px;
+}
 .details-info{
-    width:150px;
+    width:130px;
 }
 .details-inside{
-    color:blue;
+    color:black;
 }
 .details-links{
     background-color: red;color:white;padding:5px;
