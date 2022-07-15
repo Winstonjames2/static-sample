@@ -12,6 +12,7 @@
 }
 .details{
     font-size: 1em;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 .heading{
     font-size: 1.4em;width: 400px;height:70px;
@@ -19,7 +20,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;
 }
 table{
-    font-size:1em;font-family: 'Arial Narrow Bold', sans-serif;
+    font-size:1em;font-family: 'Arial Narrow Bold', sans-serif;text-align: left;
 }
 .details-info{
     width:150px;
