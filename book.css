@@ -37,6 +37,9 @@ td{
 .details-links:hover{
     background-color:rgb(170, 18, 18);
 }
+.fa-star:hover{
+    color:grey;
+}
 @media only screen and (max-width:767px){
     .content{
         flex-direction: column;
