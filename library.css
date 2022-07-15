@@ -2,8 +2,11 @@ body{
     background-color:white;color:black;
     display: block;overflow-x: hidden;
 }
+a{
+    text-decoration: none;color:white;
+}
 hr{
-    width:1365px;margin-left:-8px;margin-right:-2px;border:0.5px solid grey;
+    border:0.5px solid grey;
 }
 /* --------NavigationBar----------- */
 .nav{
